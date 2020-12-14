@@ -7,11 +7,10 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #202020;
-		font-family: 'Source Sans Pro', sans-serif;
+		background: #a9eaf5;
 		font-size: 12pt;
 		font-weight: 300;
-		color: #444444;
+		color: #ffffff;
 	}
 	
 	
@@ -20,7 +19,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: 600;
-		color: #333333;
+		color: #f2986d;
 	}
 	
 	p, ol, ul
@@ -136,7 +135,7 @@
 	{
 		display: block;
 		text-decoration: none;
-		color: #2D2D2D;
+		color: #ffdecf;
 	}
 	
 	ul.style1 a:hover
@@ -404,7 +403,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: #FFF;
+		color: #fff;
 	}
 	
 	#logo span
@@ -461,8 +460,8 @@
 	
 	#menu .current_page_item a
 	{
-		background: #f2986d;
-		color: rgba(255,255,255,1);
+		background: #a9eaf5;
+		color: rgba(0 0 0);
 	}
 	
 	#menu .icon
@@ -497,8 +496,8 @@
 		float: right;
 		width: 800px;
 		padding: 3em 50px 5em 50px;
-		background: #FFF;
-		border-top: 6px solid #f2986d;
+		background: #000;
+		border-top: 6px solid #a9eaf5;
 		text-align: center;
 	}
 
