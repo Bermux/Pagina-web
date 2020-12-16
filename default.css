@@ -19,7 +19,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: 600;
-		color: #ffffff;
+		color: #a0f6ff;
 	}
 	
 	p, ol, ul
@@ -111,7 +111,7 @@
 		overflow: hidden;
 		list-style: none;
 		text-align: left;
-		color: #6c6c6c
+		color: #FFFFFD
 	}
 	
 	ul.style1 li
@@ -135,7 +135,7 @@
 	{
 		display: block;
 		text-decoration: none;
-		color: #ffdecf;
+		color: #318e8a;
 	}
 	
 	ul.style1 a:hover
@@ -283,7 +283,70 @@
 		text-align: center;
 		color: #272925;
 	}
-		
+/*********************************************************************************/
+/* Form Style                                                                    */
+/*********************************************************************************/
+	form 
+			{
+				/* Just to center the form on the page */
+				margin: 0 auto;
+				width: 400px;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
+
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			form li + li {
+				margin-top: 1em;
+			}
+
+			label {
+				/* To make sure that all labels have the same size and are properly aligned */
+				display: inline-block;
+				width: 90px;
+				text-align: left; 
+			}
+
+			input,
+			textarea {
+				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+				font: 1em sans-serif;
+				/* To give the same size to all text fields */
+				width: 300px;
+				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+				border: 1px solid #999;
+			}
+
+			input:focus,
+			textarea:focus {
+				/* To give a little highlight on active elements */
+				border-color: #000;
+			}
+
+			textarea {
+				/* To properly align multiline text fields with their labels */
+				vertical-align: top;
+				/* To give enough room to type some text */
+				height: 5em;
+			}
+
+			.button {
+				/* To position the buttons to the same position of the text fields */
+				padding-left: 90px;
+				/* same size as the label elements */
+			}
+
+			button {
+				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+				margin-left: 0.5em;
+			}
 /*********************************************************************************/
 /* 4-column                                                                      */
 /*********************************************************************************/
@@ -451,7 +514,7 @@
 		text-decoration:  none;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: rgba(255,255,255,0.5);
+		color: #a0f6ff9e;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
